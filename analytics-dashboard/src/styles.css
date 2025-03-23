@@ -1,0 +1,75 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 2rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .app-container.dark {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+  }
+  
+  .app-container.light {
+    background: linear-gradient(to right, #d7d2cc, #304352);
+    color: black;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .chart-wrapper {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .datetime-input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+  
+  .forecast-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .forecast-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .popup-alert {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #cce7ff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #004085;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    animation: floatUp 4s ease-in-out infinite alternate;
+  }
+  
+  @keyframes floatUp {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+  }
+  
