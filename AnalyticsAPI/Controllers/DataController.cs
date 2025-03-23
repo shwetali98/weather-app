@@ -19,9 +19,9 @@ namespace AnalyticsAPI.Controllers
         [HttpGet]
         public IActionResult GetData()
         {
-            var data = _context.Metrics.ToList(); // Fix: Ensure `Metrics` is used correctly
+            var data = _context.Metrics.ToList(); 
 
-            if (data == null || data.Count == 0) // Fix: Use `Count`, not method group
+            if (data == null || data.Count == 0) 
             {
                 return NotFound("No data available in Metrics table.");
             }
