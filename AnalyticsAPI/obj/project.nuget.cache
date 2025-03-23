@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kZgHgcLpBro=",
+  "dgSpecHash": "aRa1hY4BtnM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\AnalyticsAPI\\AnalyticsAPI.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\weather-app\\AnalyticsAPI\\AnalyticsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

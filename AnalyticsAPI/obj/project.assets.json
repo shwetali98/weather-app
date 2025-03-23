@@ -4857,11 +4857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\AnalyticsAPI\\AnalyticsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\weather-app\\AnalyticsAPI\\AnalyticsAPI.csproj",
       "projectName": "AnalyticsAPI",
-      "projectPath": "C:\\Users\\Dell\\AnalyticsAPI\\AnalyticsAPI.csproj",
+      "projectPath": "C:\\Users\\Dell\\weather-app\\AnalyticsAPI\\AnalyticsAPI.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\AnalyticsAPI\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\weather-app\\AnalyticsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
