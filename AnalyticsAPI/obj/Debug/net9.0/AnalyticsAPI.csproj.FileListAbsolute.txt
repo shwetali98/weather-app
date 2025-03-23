@@ -1,0 +1,7 @@
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.csproj.AssemblyReference.cache
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.AssemblyInfoInputs.cache
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.AssemblyInfo.cs
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.csproj.CoreCompileInputs.cache
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\AnalyticsAPI\obj\Debug\net9.0\AnalyticsAPI.MvcApplicationPartsAssemblyInfo.cache
