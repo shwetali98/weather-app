@@ -1,13 +1,25 @@
-# Stage 1: Build React app
-FROM node:18-alpine AS build
+# Use Node.js
+FROM node:18-alpine
+
+# Set working directory
 WORKDIR /app
-COPY package*.json ./
+
+# Copy package files
+ COPY analytics-dashboard/package*.json ./
+
+
+# Install dependencies
 RUN npm install
+
+# Copy rest of the app
 COPY . .
+
+# Build React app
 RUN npm run build
 
-# Stage 2: Serve with Nginx
+# Serve with NGINX
 FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=0 /app/build /usr/share/nginx/html
+
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

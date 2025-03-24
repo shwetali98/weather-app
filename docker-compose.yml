@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
   backend:
     build: ./AnalyticsAPI
@@ -7,7 +6,9 @@ services:
       - "5000:5000"
 
   frontend:
-    build: ./analytics-dashboard
+    build:
+      context: ./analytics-dashboard
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
